@@ -27,7 +27,7 @@
       </template>
     </Suspense>
 
-    <!-- <img v-if="loaded" :src="resule[0].url" /> -->
+    <img v-if="loaded" :src="resule[0].url" />
   </div>
 </template>
 
